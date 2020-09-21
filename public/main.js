@@ -17,7 +17,7 @@ function main() {
 
   function incrementTheScoreForTeamOne() {
     console.log('I clicked the button')
-    teamOneScore = teamOneScore + 3
+    teamOneScore = teamOneScore + 1
     console.log(teamOneScore)
     const teamOneScoreElement = document.querySelector('.team1 h3')
     console.log(teamOneScoreElement)
@@ -31,7 +31,7 @@ function main() {
   // Team One subtract points
   function decrementTheScoreForTeamOne() {
     console.log('I clicked the button')
-    teamOneScore = teamOneScore - 3
+    teamOneScore = teamOneScore - 1
     console.log(teamOneScore)
     const teamOneScoreElement = document.querySelector('.team1 h3')
     console.log(teamOneScoreElement)
@@ -61,7 +61,7 @@ function main() {
   // Team Two Add Points
   function incrementTheScoreForTeamTwo() {
     console.log('I clicked the button')
-    teamTwoScore = teamTwoScore + 3
+    teamTwoScore = teamTwoScore + 1
     console.log(teamTwoScore)
     const teamTwoScoreElement = document.querySelector('.team2 h3')
     console.log(teamTwoScoreElement)
@@ -75,7 +75,7 @@ function main() {
   // Team Two Subtract points
   function decrementTheScoreForTeamTwo() {
     console.log('I clicked the button')
-    teamTwoScore = teamTwoScore - 3
+    teamTwoScore = teamTwoScore - 1
     console.log(teamTwoScore)
     const teamTwoScoreElement = document.querySelector('.team2 h3')
     console.log(teamTwoScoreElement)
